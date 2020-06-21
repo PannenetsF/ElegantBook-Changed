@@ -8,3 +8,17 @@
 - 开启了目录的超链接
 - 引入了单章文件，方便独立编译
 
+
+## 使用方式
+
+个人使用习惯是将除去导言的部分拆分成章节，在正文中使用`\input{}`引入。
+
+复制章节
+```sh
+cp elegantbook-chap.tex chap/chap05.seq-logic.tex
+```
+
+在正文引入
+```tex
+\input{chap\chap05.seq-logic.tex}
+```

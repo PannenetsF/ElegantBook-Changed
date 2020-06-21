@@ -330,6 +330,7 @@
 \linespread{1.3}
 
 \RequirePackage{graphicx}
+\RequirePackage{ulem}
 %\RequirePackage{enumerate}
 \RequirePackage{amsmath,mathrsfs,amsfonts,amssymb}
 % \providecommand\qed{}
@@ -469,7 +470,7 @@
   \vfil\newpage}{
   \vfil\newpage}{}{}
 
-\graphicspath{{./figure/}{./figures/}{./image/}{./images/}{./graphics/}{./graphic/}{./pictures/}{./picture/}}
+\graphicspath{{../image/}{../figure/}{../figures/}{./figure/}{./figures/}{./image/}{./images/}{./graphics/}{./graphic/}{./pictures/}{./picture/}}
 
 \usepackage{tikz} %% load tikz without tikz
 \usetikzlibrary{backgrounds,calc,shadows}
