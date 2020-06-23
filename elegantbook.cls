@@ -340,6 +340,9 @@
 \RequirePackage{xcolor}
 \RequirePackage{fancyvrb}
 \RequirePackage{makecell,lipsum,hologo}
+\RequirePackage{footnote}
+\makesavenoteenv{tabular}
+\makesavenoteenv{table}
 %%中文结构名字
 \ifdefstring{\ELEGANT@lang}{cn}{
   \renewcommand{\contentsname}{目录}
