@@ -340,6 +340,7 @@
 \RequirePackage{xcolor}
 \RequirePackage{fancyvrb}
 \RequirePackage{makecell,lipsum,hologo}
+\RequirePackage{longtable}
 \RequirePackage{footnote}
 \makesavenoteenv{tabular}
 \makesavenoteenv{table}
